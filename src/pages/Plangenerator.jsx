@@ -198,42 +198,8 @@ const Plangenerator = () => {
     setResult(plans);
     setShowResult(true);
 };
-// const apiKey = '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'; // Replace 'your_api_key_here' with your actual API key
-// const apiEndpoint = 'https://api.openai.com/v1/completions'; // Update the endpoint
-
-// const generatePlan = () => {
-//   const userForm = {}; // Assuming you have some user input to send along with the request
-//   const config = {
-//     headers: {
-//       'Authorization': `Bearer ${apiKey}`,
-//       'Content-Type': 'application/json'
-//     }
-//   };
-
-//   axios.post(apiEndpoint, userForm, config)
-//     .then(response => {
-//       const { data } = response;
-//       // Handle the response data as needed
-//       console.log('Response data:', data);
-//     })
-//     .catch(error => {
-//       if (error.response) {
-//         // The request was made and the server responded with a status code
-//         // that falls out of the range of 2xx
-//         console.error('Error fetching plans:', error.response.data);
-//         console.error('Status code:', error.response.status);
-//       } else if (error.request) {
-//         // The request was made but no response was received
-//         console.error('Error fetching plans: No response received');
-//       } else {
-//         // Something happened in setting up the request that triggered an Error
-//         console.error('Error fetching plans:', error.message);
-//       }
-//     });
-// };
 
 
-  
   
 
   useEffect(() => {
