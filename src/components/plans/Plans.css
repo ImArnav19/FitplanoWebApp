@@ -1,0 +1,8 @@
+.custom-table tr {
+    transition: background-color 0.3s ease-in-out;
+    
+  }
+  
+  .custom-table tr:hover {
+    background-color: rgba(0, 123, 255, 0.2);
+  }
